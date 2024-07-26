@@ -9,11 +9,6 @@ RUN apk update && apk upgrade
 
 # Instalar programas
 RUN apk add --no-cache \
-	git \
 	cmake \
 	build-base \
-	neovim \
- 	openssh
-
-# Copiar contenido
-COPY . .
+	neovim

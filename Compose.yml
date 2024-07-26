@@ -1,8 +1,8 @@
-version: '2'
-
 services:
     core:
         build: .
         image: devspace-cpp
         tty: true
         container_name: devspace
+        volumes: 
+            - ./:/home
