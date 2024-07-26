@@ -22,4 +22,10 @@ Docker Compose hace el trabajo de construir tanto imagen como contenedor
 -  `docker compose up -d`
 
 Para correr el contenedor
+- `docker compose start`
 - `docker exec -it devspace sh`
+
+Para detener el contenedor y borrar todo (imagen y contenedor)
+- `docker compose stop`
+- `docker compose rm`
+
