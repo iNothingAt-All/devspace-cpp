@@ -15,11 +15,13 @@ La instalación de Docker depende de la distribución de Linux
 - [Instalación de Docker](https://docs.docker.com/engine/install/debian/)
 - [Grupo de privilegios](https://docs.docker.com/engine/install/linux-postinstall/)
 
-
 ## Construcción
 Docker Compose hace el trabajo de construir tanto imagen como contenedor
 -  `docker compose build`
 -  `docker compose up -d`
+
+En caso de "Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?"
+- `sudo service docker start`
 
 Para correr el contenedor
 - `docker compose start`
@@ -28,4 +30,3 @@ Para correr el contenedor
 Para detener el contenedor y borrar todo (imagen y contenedor)
 - `docker compose stop`
 - `docker compose rm`
-
