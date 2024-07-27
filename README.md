@@ -27,6 +27,6 @@ Para correr el contenedor
 - `docker compose start`
 - `docker exec -it devspace sh`
 
-Para detener el contenedor y borrar todo (imagen y contenedor)
+Para detener el contenedor y borrar todos los contenedores creados
 - `docker compose stop`
 - `docker compose rm`
