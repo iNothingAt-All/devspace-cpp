@@ -1,7 +1,6 @@
 services:
     core:
         build: .
-        image: devspace-cpp
         tty: true
         container_name: devspace
         volumes: 
