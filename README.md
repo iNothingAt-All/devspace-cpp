@@ -45,12 +45,12 @@ docker compose stop
 docker compose rm
 ```
 
-#### Posibles errores al ejecutar Docker
-##### Error Cannot connect
+### Posibles errores al ejecutar Docker
+#### Error Cannot connect
 En caso de un error de tipo: "**Cannot connect to the Docker daemon at ...**", se puede solucionar mediante:
 - `sudo service docker start`
 
-##### Error Permission denied
+#### Error Permission denied
 En caso de un error de tipo: "**Docker: Got permission denied while trying ...**", se pude solucionar de dos formar:
 1. Se puede ejecutar Docker como root mediante `sudo`
   - `sudo docker ...`
