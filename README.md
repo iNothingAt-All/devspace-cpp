@@ -9,13 +9,13 @@ cmake .. && ./main
 ## Usar el proyecto con Docker
 ### Windows
 Se puede usar WSL para la ejecución de Docker en Windows. WSL ya viene integrado en windows por lo que se puede ejecutar desdes la consola
-#### Instalación de las distribuciones
+#### Como instalar distribuciones Linux con WSL
 - `wsl --list --online`
 - `wsl --install -d <distribución a instalar>`
 
 > Recomendado: Debian
 
-#### Ejecutar de la distribución de Linux 
+#### Como ejecutar distribuciones Linux con WSL 
 - `wsl -d <distribución instalada>`
 
 ### Linux
