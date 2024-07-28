@@ -28,7 +28,7 @@ La instalación de Docker depende de la distribución de Linux
 #### Como construir el proyecto en un contenedor
 Docker Compose hace el trabajo de construir tanto imagen como contenedor usando:
 ```
-docker compose build`
+docker compose build
 docker compose up -d
 ```
 #### Como ejecutar el contenedor
