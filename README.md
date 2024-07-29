@@ -3,7 +3,7 @@
 ```
 git clone https://github.com/iNothingAt-All/devspace-cpp
 cd devspace-cpp && cd build
-cmake .. && ./main 
+cmake .. && cmake --build . && ./main 
 ```
 
 ## Usar el proyecto con Docker
